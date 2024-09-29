@@ -20,3 +20,10 @@ class Account:
     def info(self):
 
         return f"User {self.name} with account {self.id} has {self.balance} balance"
+
+
+account = Account(5411256, "Peter")
+print(account.debit(500))
+print(account.credit(1000))
+print(account.debit(500))
+print(account.info())
