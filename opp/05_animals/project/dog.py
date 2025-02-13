@@ -1,4 +1,4 @@
-from project.animal import Animal
+from chat.project.animal import Animal
 
 
 class Dog(Animal):
